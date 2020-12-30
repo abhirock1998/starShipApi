@@ -1,0 +1,23 @@
+.peopleCard {
+  display: flex;
+  margin: 20px;
+  max-width: 300px;
+}
+.peopleCard__detailsSpec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.peopleCard__details h1 {
+  color: #00adb5;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.peopleCard:hover {
+  border-radius: 20px;
+  transition: transform 1s ease-in-out;
+  transform: scale(1.02);
+
+  border-bottom: 1px solid #eeeeeeee;
+}

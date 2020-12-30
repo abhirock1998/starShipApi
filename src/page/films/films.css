@@ -1,0 +1,12 @@
+.films {
+  background-image: url("https://cdn.hipwallpaper.com/i/19/0/ZgqA4s.jpg");
+  background-repeat: no-repeat;
+  background-position: 15% right;
+  background-attachment: fixed;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.films::-webkit-scrollbar {
+  display: none;
+}

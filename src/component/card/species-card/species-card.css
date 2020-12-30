@@ -1,0 +1,21 @@
+.speciescad__detaials {
+  color: #eeeeeeee;
+  padding: 20px;
+}
+.speciescad__detaials i {
+  font-size: 16px;
+  margin-right: 5px;
+  font-weight: 100;
+}
+.speciescad__detaials p {
+  font-size: 20px;
+}
+.speciesCard {
+  border-radius: 20px;
+  margin: 10px;
+}
+.speciesCard:hover {
+  border: 1px solid gray;
+  transition: transform 1s ease;
+  transform: scale(1.08);
+}

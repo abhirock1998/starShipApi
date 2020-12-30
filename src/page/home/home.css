@@ -1,0 +1,36 @@
+.home {
+  /* background-image: url("https://clipart.info/images/ccovers/1513370391Stormtrooper%20Star%20Wars%20transparent%20PNG%20Clip%20Art.png"); */
+  height: 100vh;
+  display: flex;
+  background-image: url("https://i.pinimg.com/originals/c1/ef/35/c1ef3565db1eeabef0d6e0a9a34d8036.jpg");
+  justify-content: center;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right 100;
+}
+.home__content {
+  margin-left: 50px;
+  max-width: 630px;
+}
+.home__content blockquote i {
+  font-size: 2.5rem;
+  color: #00adb5;
+  font-weight: bold;
+}
+.home__content p {
+  color: #eeeeee;
+  text-align: right;
+  padding-right: 20px;
+}
+.home__content .MuiSelect-root,
+.home__content .MuiSvgIcon-root {
+  color: #eeeeee;
+}
+.home__content .MuiInputBase-root {
+  width: 200px;
+  outline: none;
+  margin-top: 50px;
+  border: 1px solid #eeeeee;
+}

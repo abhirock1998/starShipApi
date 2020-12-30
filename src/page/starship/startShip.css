@@ -1,0 +1,14 @@
+.starShip {
+  background-image: url("https://i.pinimg.com/originals/5e/70/c6/5e70c6de1c2272b7b9ccc05f545ca8dc.jpg");
+  height: 100vh;
+  overflow: scroll;
+  padding: 20px;
+}
+.starShip__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.starShip::-webkit-scrollbar {
+  display: none;
+}

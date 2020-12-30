@@ -1,0 +1,15 @@
+.pagination {
+  display: flex;
+  padding: 25px 0px;
+  flex-wrap: wrap;
+  margin: 0px auto;
+  justify-content: center;
+}
+.pagination button {
+  padding: 10px;
+  border: none;
+
+  margin: 0px 1px;
+  cursor: pointer;
+  border: 1px solid var(--yt-border-bottom-color);
+}

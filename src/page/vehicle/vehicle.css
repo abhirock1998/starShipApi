@@ -1,0 +1,18 @@
+.vehicles {
+  background-image: url("https://www.itl.cat/pngfile/big/32-323824_death-star-wallpaper.jpg");
+  height: 100vh;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+  overflow: scroll;
+  padding: 20px;
+}
+.vehicles__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.vehicles::-webkit-scrollbar {
+  display: none;
+}

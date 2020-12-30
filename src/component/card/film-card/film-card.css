@@ -1,0 +1,26 @@
+.filmCard {
+  padding: 20px;
+}
+.filmCard__stats {
+  display: flex;
+
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.filmCard h1 {
+  color: #00adb5;
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+.filmCard p {
+  line-height: 200%;
+  color: #eeeeeeee;
+}
+.filmCard p span {
+  font-size: 18px;
+  font-weight: 600;
+}
+.filmCard__stats .spec h5 {
+  color: #fff;
+  font-weight: 600;
+}
